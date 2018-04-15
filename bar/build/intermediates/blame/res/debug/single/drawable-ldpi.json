@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/home/user/myrviz/src/android_foo/bar/build/intermediates/res/merged/debug/drawable-ldpi/status_ok.png",
+        "source": "/home/user/myrviz/src/android_foo/bar/src/main/res/drawable-ldpi/status_ok.png"
+    },
+    {
+        "merged": "/home/user/myrviz/src/android_foo/bar/build/intermediates/res/merged/debug/drawable-ldpi/layers.png",
+        "source": "/home/user/myrviz/src/android_foo/bar/src/main/res/drawable-ldpi/layers.png"
+    },
+    {
+        "merged": "/home/user/myrviz/src/android_foo/bar/build/intermediates/res/merged/debug/drawable-ldpi/transparent.png",
+        "source": "/home/user/myrviz/src/android_foo/bar/src/main/res/drawable-ldpi/transparent.png"
+    },
+    {
+        "merged": "/home/user/myrviz/src/android_foo/bar/build/intermediates/res/merged/debug/drawable-ldpi/status_warn.png",
+        "source": "/home/user/myrviz/src/android_foo/bar/src/main/res/drawable-ldpi/status_warn.png"
+    },
+    {
+        "merged": "/home/user/myrviz/src/android_foo/bar/build/intermediates/res/merged/debug/drawable-ldpi/status_err.png",
+        "source": "/home/user/myrviz/src/android_foo/bar/src/main/res/drawable-ldpi/status_err.png"
+    },
+    {
+        "merged": "/home/user/myrviz/src/android_foo/bar/build/intermediates/res/merged/debug/drawable-ldpi/unlock.png",
+        "source": "/home/user/myrviz/src/android_foo/bar/src/main/res/drawable-ldpi/unlock.png"
+    },
+    {
+        "merged": "/home/user/myrviz/src/android_foo/bar/build/intermediates/res/merged/debug/drawable-ldpi/icon.png",
+        "source": "/home/user/myrviz/src/android_foo/bar/src/main/res/drawable-ldpi/icon.png"
+    },
+    {
+        "merged": "/home/user/myrviz/src/android_foo/bar/build/intermediates/res/merged/debug/drawable-ldpi/lock.png",
+        "source": "/home/user/myrviz/src/android_foo/bar/src/main/res/drawable-ldpi/lock.png"
+    }
+]
