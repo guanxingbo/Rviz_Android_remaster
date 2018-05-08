@@ -30,12 +30,30 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/user/.android/build-cache/c7df134f8c539e3d22dbf1d505c931641b38e50b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/classes_29544f90d7655da6b23bd2027696022b2239e55a.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/user/.gradle/caches/modules-2/files-2.1/dnsjava/dnsjava/2.1.1/5708df81cf6dbff545695f0be6380b7bbc85accc/dnsjava-2.1.1.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="5708df81cf6dbff545695f0be6380b7bbc85accc">
         <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/dnsjava-2.1.1_132f50a8d30d64e7cd15ce2917fff6c6059d1e6d.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/user/myrviz/src/android_foo/bar/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_40318b50b25c9b13051f04972bd44f528021a8f6/classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -45,6 +63,15 @@
         revision="25.0.2"
         sha1="d81caa572200690bdeadf5c257f0d09d77623c1a">
         <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/rosjava_test_msgs-0.3.0_83ea75033553e9d4ff0ce663231cbfa52757532e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_messages/tf2_msgs/0.5.15/2ceb822da34cb732c7e76a182a474d0a083e0719/tf2_msgs-0.5.15.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2ceb822da34cb732c7e76a182a474d0a083e0719">
+        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/tf2_msgs-0.5.15_d9933612261783a781fb5e5dc90dc6d90865febe.jar" />
     </item>
     <item
         is-multidex="false"
@@ -75,192 +102,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/user/myrviz/src/android_foo/bar/build/intermediates/exploded-aar/org.ros.android_core/android_10/0.3.3/jars/classes.jar"
+        jar="/home/user/.android/build-cache/4bac8b149ee3a280933dd673d184ff18ade2d819/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="aa7b53a48f07db693569e9f22bb53b6e8d684123">
-        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/org.ros.android_core-android_10-0.3.3_7cb2ffacbda813467b094c6f16d0adf2028ef06d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/user/.gradle/caches/modules-2/files-2.1/org.apache.commons/com.springsource.org.apache.commons.lang/2.4.0/686e3713650c8e3a5d98723b4d3e239586bf9822/com.springsource.org.apache.commons.lang-2.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="686e3713650c8e3a5d98723b4d3e239586bf9822">
-        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.lang-2.4.0_3ec4ab5fcf65294318f519e7c303cac5d805ce5f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/user/.gradle/caches/modules-2/files-2.1/io.netty/netty/3.5.2.Final/e6fb74a0699abe108969b2ec1f269391169a0426/netty-3.5.2.Final.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e6fb74a0699abe108969b2ec1f269391169a0426">
-        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/netty-3.5.2.Final_e19ae468bff0dcf809fe92fed6917f4dfcc6edb9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/user/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_messages/std_msgs/0.5.10/25de4f33c8f8af231d99ec8fe362089a5fb072e8/std_msgs-0.5.10.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="25de4f33c8f8af231d99ec8fe362089a5fb072e8">
-        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/std_msgs-0.5.10_3aa0d7d465800ba4e941e87b73cb28ae92be09ea.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/user/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_bootstrap/gradle_plugins/0.3.0/9915d897f3b5049e99b268068978a1bca0ae7b5d/gradle_plugins-0.3.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9915d897f3b5049e99b268068978a1bca0ae7b5d">
-        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/gradle_plugins-0.3.0_6088247d4d2d47c56a4386e02a14c976395a02e1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/user/myrviz/src/android_foo/bar/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
-        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.1.0_cdcead9085144c4bb9ea2804a3d73cf0e82acb1d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/user/.gradle/caches/modules-2/files-2.1/commons-pool/commons-pool/1.6/4572d589699f09d866a226a14b7f4323c6d8f040/commons-pool-1.6.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4572d589699f09d866a226a14b7f4323c6d8f040">
-        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/commons-pool-1.6_c8f3e419adcc453ce99cbb0fff1d46b5e97ea849.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/user/myrviz/src/android_foo/bar/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
-        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.1.0_22a8adb04f0b072e4d67cb70c412adbf62b07f0d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/user/.gradle/caches/modules-2/files-2.1/org.apache.commons/com.springsource.org.apache.commons.httpclient/3.1.0/c493a925a091ac3d8f449d9265fe12482dabb2a7/com.springsource.org.apache.commons.httpclient-3.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c493a925a091ac3d8f449d9265fe12482dabb2a7">
-        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.httpclient-3.1.0_99c23ff253dba38a2f8d0d880477d4a2e2597d1d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/user/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_messages/sensor_msgs/1.12.5/cbf0470b3769130fbe997ca4cc479177d14ddbdb/sensor_msgs-1.12.5.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="cbf0470b3769130fbe997ca4cc479177d14ddbdb">
-        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/sensor_msgs-1.12.5_33e0dd3f28148aad7722d7c0c954920642f685e4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/user/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_bootstrap/message_generation/0.3.0/5141e448f0ea6a2d6f539219d4fc9b296ff07ca4/message_generation-0.3.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="5141e448f0ea6a2d6f539219d4fc9b296ff07ca4">
-        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/message_generation-0.3.0_db8a74e13032ab2c7fda7d5e37059e302b42f4f9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/user/ros-android-ndk/android-studio/gradle/m2repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
-        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/jsr305-1.3.9_871a056064e80c159baaa6a330a3bba08c6a3355.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/user/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/12.0/5bc66dd95b79db1e437eb08adba124a3e4088dc0/guava-12.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="5bc66dd95b79db1e437eb08adba124a3e4088dc0">
-        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/guava-12.0_ee75a54fd48565b0983dbf389a57aadc3cce5315.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/user/myrviz/src/android_foo/bar/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
-        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.1.0_ade01e36654d90f7052f59f8cb7768e467069ad4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/user/myrviz/src/android_foo/bar/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.1.0_baec3db8a3e7414693a7bc8ec8bef4653d357111.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/user/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_messages/geometry_msgs/1.12.5/cced5d3f1b4f55a4248884befce7e898856705d/geometry_msgs-1.12.5.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0cced5d3f1b4f55a4248884befce7e898856705d">
-        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/geometry_msgs-1.12.5_1375adcfd323f78d8da9d04d2de6fe7c0ec15f77.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/user/myrviz/src/android_foo/bar/build/intermediates/exploded-aar/org.ros.android_core/android_15/0.3.3/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="eb70427fcf40847ab9c77b168dddc3183daf0c1e">
-        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/org.ros.android_core-android_15-0.3.3_163ab94b33384f48a6b8bb242f08565ff60cb375.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/user/myrviz/src/android_foo/bar/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
-        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.1.0_14ed49535a24daa83343c5e05700905c5282f6b7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/user/myrviz/src/android_foo/bar/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
-        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.1.0_01a0f46f6d9e4222651a8f5c2ac6dc8207fc5f14.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/user/myrviz/src/android_foo/bar/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
-        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.1.0_ab4db8dab2157bcb834e326ac5bb0cb2e960dc35.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/user/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_messages/tf2_msgs/0.5.15/2ceb822da34cb732c7e76a182a474d0a083e0719/tf2_msgs-0.5.15.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2ceb822da34cb732c7e76a182a474d0a083e0719">
-        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/tf2_msgs-0.5.15_d9933612261783a781fb5e5dc90dc6d90865febe.jar" />
+        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/classes_f0c3d7f180fac686d1186dea4540f14f9c05426d.jar" />
     </item>
     <item
         is-multidex="false"
@@ -273,12 +120,57 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/user/.android/build-cache/c3ea8501ee263a2cd6db8cc060c32929ab533aa7/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/classes_d322ded047ed70ec492c1ac543771b6e359d92b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/.gradle/caches/modules-2/files-2.1/org.apache.commons/com.springsource.org.apache.commons.lang/2.4.0/686e3713650c8e3a5d98723b4d3e239586bf9822/com.springsource.org.apache.commons.lang-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="686e3713650c8e3a5d98723b4d3e239586bf9822">
+        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.lang-2.4.0_3ec4ab5fcf65294318f519e7c303cac5d805ce5f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/.android/build-cache/bffb7876dca5b8030d36679bddfad28c2433e992/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/classes_963c4f3e247b92633b78a2a7d36f5e72974ac92d.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/user/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_core/rosjava/0.3.5/7320e6ff76abf066da6850f44f3dcb05f890e043/rosjava-0.3.5.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="7320e6ff76abf066da6850f44f3dcb05f890e043">
         <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/rosjava-0.3.5_87c4ed9d2c5173abfd5a5f3dbd4e41321e27261a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/.gradle/caches/modules-2/files-2.1/io.netty/netty/3.5.2.Final/e6fb74a0699abe108969b2ec1f269391169a0426/netty-3.5.2.Final.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e6fb74a0699abe108969b2ec1f269391169a0426">
+        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/netty-3.5.2.Final_e19ae468bff0dcf809fe92fed6917f4dfcc6edb9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/1.3.9/40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf/jsr305-1.3.9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/jsr305-1.3.9_3ab3857ad0b37b529f162bfadaf7c5d987ca49be.jar" />
     </item>
     <item
         is-multidex="false"
@@ -291,12 +183,30 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/user/myrviz/src/android_foo/bar/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
+        jar="/home/user/.android/build-cache/f4b9d2782a3e1d30339c821f4cbf0b423709a67e/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="aee64634871d88a419d59eb743c1258a60f19700">
-        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.1.0_97538d22e4a424f824d307e2e0d0d88e3dc14883.jar" />
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/classes_11687c3983b7c8afd2e145469c32678dab0b3f00.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/.android/build-cache/7ce7e920830b7ab9707b5ad17571f86fe51b64ef/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/classes_68d98174a65c13ac25e6278e8925a93ab09fca67.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/.android/build-cache/3008a323def4a13693efe4e3d8e63a539c422bfa/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/classes_b34859d42f3baa5466a6317e8a529be209a4dd97.jar" />
     </item>
     <item
         is-multidex="false"
@@ -318,15 +228,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/user/.gradle/caches/modules-2/files-2.1/org.apache.commons/com.springsource.org.apache.commons.io/1.4.0/51097cd000ec88214ff181c9f059947de1cf4a35/com.springsource.org.apache.commons.io-1.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="51097cd000ec88214ff181c9f059947de1cf4a35">
-        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.io-1.4.0_69c985f56dbadd308a622eb66295ac484bae3741.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/home/user/myrviz/src/android_foo/bar/libs/vtd-xml.jar"
         jumboMode="false"
         optimize="true"
@@ -336,12 +237,57 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/user/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_messages/std_msgs/0.5.10/25de4f33c8f8af231d99ec8fe362089a5fb072e8/std_msgs-0.5.10.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="25de4f33c8f8af231d99ec8fe362089a5fb072e8">
+        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/std_msgs-0.5.10_3aa0d7d465800ba4e941e87b73cb28ae92be09ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/.gradle/caches/modules-2/files-2.1/org.apache.commons/com.springsource.org.apache.commons.io/1.4.0/51097cd000ec88214ff181c9f059947de1cf4a35/com.springsource.org.apache.commons.io-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="51097cd000ec88214ff181c9f059947de1cf4a35">
+        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.io-1.4.0_69c985f56dbadd308a622eb66295ac484bae3741.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_bootstrap/gradle_plugins/0.3.0/9915d897f3b5049e99b268068978a1bca0ae7b5d/gradle_plugins-0.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9915d897f3b5049e99b268068978a1bca0ae7b5d">
+        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/gradle_plugins-0.3.0_6088247d4d2d47c56a4386e02a14c976395a02e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/user/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_core/apache_xmlrpc_common/0.3.5/f5de19f4f6ee9a84f08e27255f1baaa69401a979/apache_xmlrpc_common-0.3.5.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="f5de19f4f6ee9a84f08e27255f1baaa69401a979">
         <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/apache_xmlrpc_common-0.3.5_5443e64ae9e8e04f9b2be2a2a638203fc413c35d.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/user/myrviz/src/android_foo/bar/libs/vtd-xml.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="284a265b2f07c5292aeff2259653045a83bae45a">
+        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/transforms/dex/debug/folders/1000/2/vtd-xml_c59bc3e075f17e671ac8495c80000e9361d5f1bc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/user/myrviz/src/android_foo/bar/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9a8caaff55085a15af13e575367638245a6e9052">
+        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b7aee6e4e81de95d38bf6c70885e34a120cd01e6/classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -354,6 +300,60 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/user/.gradle/caches/modules-2/files-2.1/commons-pool/commons-pool/1.6/4572d589699f09d866a226a14b7f4323c6d8f040/commons-pool-1.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4572d589699f09d866a226a14b7f4323c6d8f040">
+        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/commons-pool-1.6_c8f3e419adcc453ce99cbb0fff1d46b5e97ea849.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/.gradle/caches/modules-2/files-2.1/org.apache.commons/com.springsource.org.apache.commons.httpclient/3.1.0/c493a925a091ac3d8f449d9265fe12482dabb2a7/com.springsource.org.apache.commons.httpclient-3.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c493a925a091ac3d8f449d9265fe12482dabb2a7">
+        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.httpclient-3.1.0_99c23ff253dba38a2f8d0d880477d4a2e2597d1d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/.android/build-cache/98153142ece15f1fcaeb3b011394334d71f4eee3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/classes_8a0a1d794fe9db43a11acdf9495e9d9652834f33.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_messages/sensor_msgs/1.12.5/cbf0470b3769130fbe997ca4cc479177d14ddbdb/sensor_msgs-1.12.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cbf0470b3769130fbe997ca4cc479177d14ddbdb">
+        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/sensor_msgs-1.12.5_33e0dd3f28148aad7722d7c0c954920642f685e4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/.android/build-cache/20478bba032d850876936aac89180a52f87e165f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/classes_73bca1d99db751e256f5cb9f9d3a67c0d8672ee7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_bootstrap/message_generation/0.3.0/5141e448f0ea6a2d6f539219d4fc9b296ff07ca4/message_generation-0.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5141e448f0ea6a2d6f539219d4fc9b296ff07ca4">
+        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/message_generation-0.3.0_db8a74e13032ab2c7fda7d5e37059e302b42f4f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/user/.gradle/caches/modules-2/files-2.1/org.apache.commons/com.springsource.org.apache.commons.net/2.0.0/3e78766072ff5a5cf3f5431d973c430c94ec612/com.springsource.org.apache.commons.net-2.0.0.jar"
         jumboMode="false"
         optimize="true"
@@ -363,12 +363,30 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/user/myrviz/src/android_foo/bar/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
+        jar="/home/user/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/12.0/5bc66dd95b79db1e437eb08adba124a3e4088dc0/guava-12.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
-        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.1.0_e2905038fc37ef4bc0d1eb95d252dd0755b1a267.jar" />
+        sha1="5bc66dd95b79db1e437eb08adba124a3e4088dc0">
+        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/guava-12.0_ee75a54fd48565b0983dbf389a57aadc3cce5315.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/.android/build-cache/3657ad1e8ff76bf27d86e77c6abecddba70a364a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/classes_6c537a3741cee01f169822f1a567dac761c8cbdf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_messages/geometry_msgs/1.12.5/cced5d3f1b4f55a4248884befce7e898856705d/geometry_msgs-1.12.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0cced5d3f1b4f55a4248884befce7e898856705d">
+        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/geometry_msgs-1.12.5_1375adcfd323f78d8da9d04d2de6fe7c0ec15f77.jar" />
     </item>
     <item
         is-multidex="false"
@@ -378,6 +396,15 @@
         revision="25.0.2"
         sha1="1af629301e0c1e2c5ae5dc5086127d0943f752fb">
         <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/nav_msgs-1.12.5_49fb1280e2d6209246fd600fd95c8e016655c2cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/user/.android/build-cache/6cae1bee7752599189c316dbb3f48266eb5a3cf1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="eb70427fcf40847ab9c77b168dddc3183daf0c1e">
+        <dex dex="/home/user/myrviz/src/android_foo/bar/build/intermediates/pre-dexed/debug/classes_54c086cb21124236fff8ce7ab1aa5ec5b1dbcf7a.jar" />
     </item>
 
 </items>

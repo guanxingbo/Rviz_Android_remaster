@@ -67,7 +67,6 @@ public class MarkerLayer extends EditableStatusSubscriberLayer<visualization_msg
 			}
 		}));
 	}
-
 	@Override
 	protected void onMessageReceived(visualization_msgs.Marker msg) {
 		super.onMessageReceived(msg);
@@ -83,6 +82,7 @@ public class MarkerLayer extends EditableStatusSubscriberLayer<visualization_msg
 					namespaceList.add(ns);
 				}
 				markers.get(ns).put(id, new Marker(msg, super.camera, ftt));
+				Log.i("MarkerLayer", "Adding marker "+ns+":"+id);
 				break;
 			case visualization_msgs.Marker.DELETE:
 				Log.i("MarkerLayer", "Deleting marker " + ns + ":" + id);
@@ -102,6 +102,7 @@ public class MarkerLayer extends EditableStatusSubscriberLayer<visualization_msg
 			for(String namespace : enabledNamespaces)
 				for(Marker marker : markers.get(namespace).values())
 					marker.draw(glUnused);
+//			        Log.i("OpenGL","Drawing marker");
 			
 			if(System.currentTimeMillis() >= nextPruneTime)
 				pruneMarkers();

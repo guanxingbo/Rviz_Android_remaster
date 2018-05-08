@@ -19,7 +19,6 @@ package org.ros.android.rviz_for_android;
 
 import java.util.ArrayList;
 import java.util.Set;
-
 import org.ros.address.InetAddressFactory;
 import org.ros.android.RosActivity;
 import org.ros.android.renderer.AngleControlView;
@@ -33,6 +32,7 @@ import org.ros.android.rviz_for_android.layers.AxisLayer;
 import org.ros.android.rviz_for_android.layers.GridLayer;
 import org.ros.android.rviz_for_android.layers.InteractiveMarkerLayer;
 import org.ros.android.rviz_for_android.layers.MapLayer;
+import org.ros.android.rviz_for_android.layers.MarkerArrayLayer;
 import org.ros.android.rviz_for_android.layers.MarkerLayer;
 import org.ros.android.rviz_for_android.layers.ParentableOrbitCameraControlLayer;
 import org.ros.android.rviz_for_android.layers.PointCloud2Layer;
@@ -89,7 +89,8 @@ public class MainActivity extends RosActivity {
 		PointCloud("Point Cloud"), 
 		PointCloud2("Point Cloud2"), 
 		TFLayer("TF"), 
-		Marker("Marker"), 
+		Marker("Marker"),
+		MarkerArray("MarkerArray"),
 		InteractiveMarker("Interactive Marker");
 
 		private String printName;
@@ -333,6 +334,9 @@ public class MainActivity extends RosActivity {
 			break;
 		case Marker:
 			newLayer = new MarkerLayer(cam, GraphName.of("/markers"));
+			break;
+		case MarkerArray:
+			newLayer = new MarkerArrayLayer(cam, GraphName.of("/occupied_cells_vis_array"));
 			break;
 		case InteractiveMarker:
 			newLayer = new InteractiveMarkerLayer(cam);

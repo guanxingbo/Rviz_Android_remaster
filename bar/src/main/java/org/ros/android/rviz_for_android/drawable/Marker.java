@@ -228,6 +228,7 @@ public class Marker implements Cleanable {
 
 	private void initArray(visualization_msgs.Marker msg) {
 		shapeArrayPositions = msg.getPoints();
+		Log.i("Marker","initing at "+msg.getPoints().get(0).getX());
 		shapeArraySize = shapeArrayPositions.size();
 		useIndividualShapeArrayColors = (shapeArraySize == msg.getColors().size());
 
@@ -293,7 +294,8 @@ public class Marker implements Cleanable {
 			for(int i = 0; i < shapeArraySize; i++) {
 				cam.pushM();
 				Point p = shapeArrayPositions.get(i);
-				cam.translateM((float) p.getX(), (float) p.getY(), (float) p.getZ());
+//				Log.i("Pointinfo","translating into "+(float)p.getX()+","+(float)p.getY()+","+(float)p.getZ());
+				cam.translateM(5*(float) p.getX(), 5*(float) p.getY(), 5*(float) p.getZ());
 				if(useIndividualShapeArrayColors)
 					shape.setColor(shapeArrayColors.get(i));
 				shape.draw(glUnused);

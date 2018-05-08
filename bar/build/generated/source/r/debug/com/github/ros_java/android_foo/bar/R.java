@@ -1897,7 +1897,7 @@ containing a value of this type.
         public static final int actions=0x7f0b0080;
         public static final int activity_chooser_view_content=0x7f0b0027;
         public static final int add=0x7f0b0013;
-        public static final int add_layer=0x7f0b005e;
+        public static final int add_layer=0x7f0b005f;
         public static final int advancedOptions=0x7f0b0067;
         public static final int advanced_checkBox=0x7f0b0066;
         public static final int alertTitle=0x7f0b003b;
@@ -2003,7 +2003,7 @@ containing a value of this type.
         public static final int pt_home_marker=0x7f0b008a;
         public static final int pt_outline=0x7f0b0089;
         public static final int radio=0x7f0b0040;
-        public static final int remove_layer=0x7f0b005f;
+        public static final int remove_layer=0x7f0b005e;
         public static final int rename_layer=0x7f0b0060;
         public static final int right_icon=0x7f0b007e;
         public static final int right_side=0x7f0b007a;

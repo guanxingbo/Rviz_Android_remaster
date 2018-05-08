@@ -1,4 +1,7 @@
-#Sun Apr 15 19:06:20 CST 2018
-base.0=/home/user/myrviz/src/android_foo/bar/build/intermediates/transforms/dex/debug/folders/1000/1f/main
-renamed.0=classes.dex
-file.0=/home/user/myrviz/src/android_foo/bar/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+#Mon May 07 18:36:16 CST 2018
+base.0=/home/user/myrviz/src/android_foo/bar/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b7aee6e4e81de95d38bf6c70885e34a120cd01e6
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/user/myrviz/src/android_foo/bar/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_40318b50b25c9b13051f04972bd44f528021a8f6/classes.dex
+base.1=/home/user/myrviz/src/android_foo/bar/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_40318b50b25c9b13051f04972bd44f528021a8f6
+file.0=/home/user/myrviz/src/android_foo/bar/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b7aee6e4e81de95d38bf6c70885e34a120cd01e6/classes.dex

@@ -344,7 +344,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="add_layer">Add Display</string>
+    <string name="add_layer">+</string>
     <string name="app_name">Rviz</string>
     <string name="cancel">Cancel</string>
     <string name="connection_text">Trying to reach master…</string>
@@ -353,8 +353,8 @@
     <string name="new_master">New Public Master</string>
     <string name="new_private_master">New Private Master</string>
     <string name="qr_code">Read QRCode</string>
-    <string name="remove_layer">Remove</string>
-    <string name="rename_layer">Rename</string>
+    <string name="remove_layer">-</string>
+    <string name="rename_layer">#</string>
     <string name="search_menu_title">Search</string>
     <string name="select_interface">Select network interface</string>
     <string name="show_advanced">Show advanced options</string>

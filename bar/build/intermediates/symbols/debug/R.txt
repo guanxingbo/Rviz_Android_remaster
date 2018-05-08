@@ -579,7 +579,7 @@ int id action_text 0x7f0b0072
 int id actions 0x7f0b0080
 int id activity_chooser_view_content 0x7f0b0027
 int id add 0x7f0b0013
-int id add_layer 0x7f0b005e
+int id add_layer 0x7f0b005f
 int id advancedOptions 0x7f0b0067
 int id advanced_checkBox 0x7f0b0066
 int id alertTitle 0x7f0b003b
@@ -685,7 +685,7 @@ int id pt_divet 0x7f0b008b
 int id pt_home_marker 0x7f0b008a
 int id pt_outline 0x7f0b0089
 int id radio 0x7f0b0040
-int id remove_layer 0x7f0b005f
+int id remove_layer 0x7f0b005e
 int id rename_layer 0x7f0b0060
 int id right_icon 0x7f0b007e
 int id right_side 0x7f0b007a

@@ -11,7 +11,7 @@
                     "endOffset": 117
                 },
                 "from": {
-                    "file": "/home/user/myrviz/src/android_foo/bar/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "file": "/home/user/.android/build-cache/20478bba032d850876936aac89180a52f87e165f/output/res/values-h720dp-v13/values-h720dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

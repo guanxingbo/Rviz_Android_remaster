@@ -12,12 +12,12 @@
         "source": "/home/user/myrviz/src/android_foo/bar/src/main/res/drawable-ldpi/transparent.png"
     },
     {
-        "merged": "/home/user/myrviz/src/android_foo/bar/build/intermediates/res/merged/debug/drawable-ldpi/status_warn.png",
-        "source": "/home/user/myrviz/src/android_foo/bar/src/main/res/drawable-ldpi/status_warn.png"
-    },
-    {
         "merged": "/home/user/myrviz/src/android_foo/bar/build/intermediates/res/merged/debug/drawable-ldpi/status_err.png",
         "source": "/home/user/myrviz/src/android_foo/bar/src/main/res/drawable-ldpi/status_err.png"
+    },
+    {
+        "merged": "/home/user/myrviz/src/android_foo/bar/build/intermediates/res/merged/debug/drawable-ldpi/status_warn.png",
+        "source": "/home/user/myrviz/src/android_foo/bar/src/main/res/drawable-ldpi/status_warn.png"
     },
     {
         "merged": "/home/user/myrviz/src/android_foo/bar/build/intermediates/res/merged/debug/drawable-ldpi/unlock.png",
